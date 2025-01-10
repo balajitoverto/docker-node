@@ -2,7 +2,7 @@
 FROM node:14.4-alpine3.11
 
 # Define build-time variable
-ARG IMAGE_TAG
+ARG IMAGE_TAG=v0.0.3
 
 # Set the working directory
 WORKDIR /app
